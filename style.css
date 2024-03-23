@@ -36,7 +36,7 @@ body {
   height: 50px;
   width: 50px;
   position: absolute;
-  background-color: blue;
+  background-color: purple;
   border: 5px solid yellow;
   z-index: 4;
 }
