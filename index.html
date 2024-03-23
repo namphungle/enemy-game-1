@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>enemy game</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <canvas width="1420" height="780"></canvas>
+        <h1 id="score">0</h1>
+        <h1 id="attackRate"></h1>
+        <h1 id="attackRateMAX">10000 MAX</h1>
+
+        <div id="p1"></div>
+        <div id="blade"></div>
+
+        <div id="enemy"></div>
+        <div id="Abar"></div>
+        <div id="pionter"></div>
+        <div id="zeroPionter"></div>
+
+        <div id="Hbar"></div>
+        <div id="healthPionter"></div>
+        <div id="zeroPionterH"></div>
+        
+        <button onclick="setup()" id="restart">GAME OVER! restart?</button>
+        <h1 id="restartGuide">Press mouse to restart</h1>
+
+        <div id="hit1" class="hitboxes"></div>
+        <div id="hit2" class="hitboxes"></div>
+        <div id="hit3" class="hitboxes"></div>
+        <div id="hit4" class="hitboxes"></div>
+        <div id="swordHit"></div>
+    </body>
+</html>

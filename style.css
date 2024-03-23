@@ -1,0 +1,159 @@
+canvas {
+  background-color: darkcyan;
+  border: 10px solid red;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+body {
+  margin: 0; height: 100%; overflow: hidden
+}
+
+#p1 {
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  background-color: lightgreen;
+  border: 5px solid green;
+  z-index: 4;
+}
+
+#blade {
+  width: 0;
+	height: 0;
+  position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 30px solid lightgray;
+  z-index: 4;
+}
+
+#enemy {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-color: blue;
+  border: 5px solid yellow;
+  z-index: 4;
+}
+
+#restart {
+  height: 800px;
+  width: 1440px;
+  position: absolute;
+  background-color: transparent;
+  border: 10px solid transparent;
+  -webkit-text-fill-color: transparent;
+  font-family: fantasy;
+  font-size: 100px;
+  top: 0px; 
+  left: 0px;
+  z-index: 0;
+}
+
+#restartGuide {
+  position: absolute;
+  -webkit-text-fill-color: transparent;
+  top: 450px;
+  left: 530px;
+  font-family: fantasy;
+  font-size: xx-large;
+  z-index: 6;
+}
+
+.hitboxes {
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  background-color: red;
+  z-index: 5;
+}
+
+#swordHit {
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  background-color: lightgreen;
+  z-index: 5;
+}
+
+#attackRate {
+  -webkit-text-fill-color: goldenrod;
+  font-family: fantasy;
+  position: absolute;
+  left: 60px;
+  top: 10px;
+  z-index: 2;
+}
+
+#score {
+  -webkit-text-fill-color: goldenrod;
+  font-family: fantasy;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  z-index: 4;
+}
+
+#Abar {
+  position: absolute;
+  width: 1110px;
+  height: 40px;
+  border: 2px solid gray;
+  background-color: pink;
+  left: 50px;
+  top: 30px;
+  z-index: 1;
+} 
+
+#pionter {
+  position: absolute;
+  width: 10px;
+  height: 40px;
+  background-color: green;
+  left: 152px;
+  top: 32px;
+  z-index: 2;
+}
+
+#zeroPionter {
+  position: absolute;
+  width: 10px;
+  height: 110px;
+  background-color: white;
+  left: 152px;
+  top: 22px;
+  z-index: 3;
+}
+
+#Hbar {
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  border: 2px solid gray;
+  background-color: pink;
+  left: 150px;
+  top: 80px;
+  z-index: 1;
+} 
+
+#healthPionter {
+  position: absolute;
+  width: 10px;
+  height: 40px;
+  background-color: green;
+  left: 152px;
+  top: 82px;
+  z-index: 2;
+}
+
+#attackRateMAX {
+  -webkit-text-fill-color: goldenrod;
+  font-family: fantasy;
+  position: absolute;
+  left: 1180px;
+  top: 10px;
+  z-index: 2;
+}
